@@ -1,7 +1,95 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #3583aa;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #788d98;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  margin-top: 50px;
+  color: #ffffff;
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 60px;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Bitter', serif;
+}
+
+.global-nav li a {
+  color: #ffffff;
+}
+
 #index {
-  background-image: url(../images/marina1.jpg);
+  background-image: url(../images/marina4.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+}
+
+#index h1 {
+  font-size: 100px;
+  line-height: 1;
+  color: #ffffff;
+  font-family: 'Bitter',serif;
+  margin-bottom: 50px;
+  border: none;
+}
+
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
